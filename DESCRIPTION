@@ -3,7 +3,10 @@ Type: Package
 Title: OpenBudgets.eu-R
 Version: 1.1.5
 Date: 2017-06-11
-Description: OpenBudgets.eu-R
+Description: The OpenBudgets.eu-R package is a set of three packages that developed in OpenBudgets.eu project and
+    they share common data structures and 'API' design. All three packages can be used generally to extract
+    visualization parameters convert them to JSON format and use them as input in a different graphical interface.
+    This package is designed to make it easy to install and load multiple 'OpenBudgets.eu' packages in a single step.
 Author: Kleanthis Koupidis <koupidis@okfn.gr>, Aikaterini Chatzopoulou <kchatzopoul@okfn.gr>,  Charalampos Bratsas <charalampos.bratsas@okfn.org>
 Maintainer: Kleanthis Koupidis <koupidis@okfn.gr>
 URL: https://github.com/okgreece/OpenBudgets.eu-R
@@ -14,5 +17,5 @@ LazyData: true
 Imports:
 RoxygenNote: 6.0.1
 Suggests: knitr,
-    rmarkdown
-VignetteBuilder: knitr
+ rmarkdown
+VignetteBuilder: knitr 
