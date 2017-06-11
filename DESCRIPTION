@@ -1,0 +1,18 @@
+Package: OpenBudgets.eu-R
+Type: Package
+Title: OpenBudgets.eu-R
+Version: 1.1.5
+Date: 2017-06-11
+Description: OpenBudgets.eu-R
+Author: Kleanthis Koupidis <koupidis@okfn.gr>, Aikaterini Chatzopoulou <kchatzopoul@okfn.gr>,  Charalampos Bratsas <charalampos.bratsas@okfn.org>
+Maintainer: Kleanthis Koupidis <koupidis@okfn.gr>
+URL: https://github.com/okgreece/OpenBudgets.eu-R
+BugReports: https://github.com/okgreece/OpenBudgets.eu-R/issues
+License: GPL-2 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
